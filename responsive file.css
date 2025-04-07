@@ -1,0 +1,210 @@
+
+@media (min-width:1800px){
+  .test-computer-basic {
+    gap: 25px;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  .test-computer-basic-content {
+    width: 155px;
+    height: 150px;
+  }
+}
+
+@media (min-width:1200px){
+  .test-computer-basic {
+    gap: 25px;
+    width: 64%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1200px){
+
+	/* **********test-computer-basic page responsive************* */
+  .test-computer-basic {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  section.test-computer-basic-section {
+    
+  }
+  .test-computer-basic-title h2 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .test-computer-basic-title p {
+    width: 85%;
+  }
+
+  /* ****************Result quiz test********************* */
+  div#result {
+    width: 85%;
+  }
+}
+
+
+@media (max-width: 1080px){
+  /* ****************computer-basic-quiz set1********************* */
+  
+  section.computer-basic-1-section i {
+    top: 40px;
+    left: 40px;
+    font-size: 30px;
+  }
+
+  div .quiz {
+    width: 100%;
+    padding: 88px 32px;
+  }
+  .quiz-container #question{
+    font-size: 20px;
+  }
+  .quiz-container{
+    margin-right: 10px;
+  }
+
+  .nav-btn {
+    width: 45px;
+    height: 45px;
+  }
+  /* ****************Result quiz test********************* */
+  div#result h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  div#result {
+    width: 80%;
+  }
+  .review-item p {
+    font-size: 20px;
+  }
+  #result button {
+    margin: 25px 0px;
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+
+}
+
+
+@media (max-width:850px){
+  .test-computer-basic-title p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* ****************computer-basic-quiz set1********************* */
+  .quiz-container {
+    width: 88%;
+    margin: auto;
+  }
+  .test-computer-basic {
+    gap: 20px;
+  }
+  .nav-container {
+    width: 88%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  div .quiz {
+    flex-wrap: wrap-reverse;
+    padding: 45px 5px;
+  }
+  .nav-container h3 {
+    text-align: center;
+  }
+  .nav-container {
+    padding: 0px 25px;
+  }
+  .nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+  section.computer-basic-1-section i {
+    top: 14px;
+    left: 15px;
+    font-size: 25px;
+  }
+  #question-nav {
+    margin-bottom: 30px;
+    gap: 8px;
+  }
+  .quiz-container button {
+    padding: 7px 8px;
+  }
+  /* ****************Result quiz test********************* */
+  div#result {
+    width: 95%;
+  }
+  #result button {
+    margin: 20px 10px;
+    padding: 9px 7px;
+    font-size: 13px;
+  }
+  div#result h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  p#score {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:650px){
+  #question-nav {
+    margin-bottom: 30px;
+    gap: 8px;
+  }
+  .quiz-container #question{
+    font-size: 16px;
+  }
+  section.computer-basic-1-section{
+    width: 100%;
+  }
+  .quiz-container {
+    width: 95%;
+    margin: auto;
+  }
+  .nav-container {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:400px){
+  .test-computer-basic-content{
+    width: 135px;
+  }
+  .test-computer-basic-content h3 {
+    font-size: 17px;
+  }
+  .test-computer-basic-content button{
+    font-size: 13px;
+  }
+  .test-computer-basic{
+    gap: 20px;
+  }
+  .test-computer-basic-title h2{
+    font-size: 25px;
+  }
+  .nav-container {
+    padding: 0px 10px;
+  }
+  .nav-btn {
+    width: 35px;
+    height: 35px;
+  }
+  #question-nav {
+    gap: 5px;
+  }
+  .quiz-container{
+    padding: 12px;
+  }
+  .question-container label, input {
+    padding: 5px;
+  }
+  .quiz-container #question{
+    font-size: 15px;
+  }
+}
